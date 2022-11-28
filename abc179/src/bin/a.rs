@@ -4,7 +4,7 @@ use proconio::marker::Chars;
 #[fastout]
 fn main() {
     input! {
-        s:Chars,
+        S:String,
     }
-    println!("{}", if s[0] == s[1] && s[1] == s[2] {"Won"} else {"Lost"})
+    println!("{}",if S.chars().nth(S.len()-1) == Some('s') {S+"es"} else {S+"s" })
 }
