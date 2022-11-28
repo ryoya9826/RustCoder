@@ -7,7 +7,6 @@ fn main() {
         x2 : i32,
         x3 : i32,
         x4 : i32,
-        x5 : i32,
     }
     let ans;
     ans = if x1 == 0 {1
