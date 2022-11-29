@@ -1,4 +1,4 @@
-workspace = {members = ["practice", "abc189", "abc180", "abc178", "abc170", "abc279", "abc179", "abc039"],exclude = []}
+workspace = {members = ["practice", "abc189", "abc180", "abc178", "abc170", "abc279", "abc179", "abc039", "arc119"],exclude = []}
 [package]
 name = "RustCoder"
 version = "0.1.0"
